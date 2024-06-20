@@ -1,0 +1,399 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "answer": "Paris"
+    },
+    {
+      "id": 2,
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": [
+        "Harper Lee",
+        "Mark Twain",
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway"
+      ],
+      "answer": "Harper Lee"
+    },
+    {
+      "id": 3,
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "CO2", "O2", "H2"],
+      "answer": "H2O"
+    },
+    {
+      "id": 4,
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Claude Monet"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "id": 5,
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "answer": "Jupiter"
+    },
+    {
+      "id": 6,
+      "question": "Which element has the atomic number 1?",
+      "options": ["Helium", "Oxygen", "Hydrogen", "Nitrogen"],
+      "answer": "Hydrogen"
+    },
+    {
+      "id": 7,
+      "question": "What is the smallest prime number?",
+      "options": ["1", "2", "3", "5"],
+      "answer": "2"
+    },
+    {
+      "id": 8,
+      "question": "Who was the first president of the United States?",
+      "options": [
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington",
+        "James Madison"
+      ],
+      "answer": "George Washington"
+    },
+    {
+      "id": 9,
+      "question": "What is the main ingredient in guacamole?",
+      "options": ["Tomato", "Avocado", "Onion", "Pepper"],
+      "answer": "Avocado"
+    },
+    {
+      "id": 10,
+      "question": "How many continents are there?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "id": 11,
+      "question": "In which year did the Titanic sink?",
+      "options": ["1902", "1912", "1922", "1932"],
+      "answer": "1912"
+    },
+    {
+      "id": 12,
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Platinum"],
+      "answer": "Diamond"
+    },
+    {
+      "id": 13,
+      "question": "Who developed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Niels Bohr"
+      ],
+      "answer": "Albert Einstein"
+    },
+    {
+      "id": 14,
+      "question": "What is the capital of Japan?",
+      "options": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+      "answer": "Tokyo"
+    },
+    {
+      "id": 15,
+      "question": "How many degrees are in a circle?",
+      "options": ["90", "180", "270", "360"],
+      "answer": "360"
+    },
+    {
+      "id": 16,
+      "question": "Who is known as the 'Father of Computers'?",
+      "options": ["Alan Turing", "Charles Babbage", "Bill Gates", "Steve Jobs"],
+      "answer": "Charles Babbage"
+    },
+    {
+      "id": 17,
+      "question": "What is the tallest mountain in the world?",
+      "options": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
+      "answer": "Mount Everest"
+    },
+    {
+      "id": 18,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "id": 19,
+      "question": "What is the largest mammal in the world?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "answer": "Blue Whale"
+    },
+    {
+      "id": 20,
+      "question": "Who discovered penicillin?",
+      "options": [
+        "Marie Curie",
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Robert Koch"
+      ],
+      "answer": "Alexander Fleming"
+    },
+    {
+      "id": 21,
+      "question": "Which country is the largest by area?",
+      "options": ["China", "United States", "Canada", "Russia"],
+      "answer": "Russia"
+    },
+    {
+      "id": 22,
+      "question": "What is the main gas found in the air we breathe?",
+      "options": ["Oxygen", "Hydrogen", "Carbon Dioxide", "Nitrogen"],
+      "answer": "Nitrogen"
+    },
+    {
+      "id": 23,
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": [
+        "William Shakespeare",
+        "Charles Dickens",
+        "Mark Twain",
+        "Jane Austen"
+      ],
+      "answer": "William Shakespeare"
+    },
+    {
+      "id": 24,
+      "question": "What is the longest river in the world?",
+      "options": [
+        "Amazon River",
+        "Nile River",
+        "Yangtze River",
+        "Mississippi River"
+      ],
+      "answer": "Nile River"
+    },
+    {
+      "id": 25,
+      "question": "Who was the first man to walk on the moon?",
+      "options": [
+        "Yuri Gagarin",
+        "Buzz Aldrin",
+        "Michael Collins",
+        "Neil Armstrong"
+      ],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "id": 26,
+      "question": "What is the capital of Canada?",
+      "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "answer": "Ottawa"
+    },
+    {
+      "id": 27,
+      "question": "Which ocean is the largest?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "id": 28,
+      "question": "What is the freezing point of water?",
+      "options": [
+        "0 degrees Celsius",
+        "32 degrees Fahrenheit",
+        "Both A and B",
+        "None of the above"
+      ],
+      "answer": "Both A and B"
+    },
+    {
+      "id": 29,
+      "question": "Who is the author of '1984'?",
+      "options": [
+        "George Orwell",
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "J.R.R. Tolkien"
+      ],
+      "answer": "George Orwell"
+    },
+    {
+      "id": 30,
+      "question": "What is the most widely spoken language in the world?",
+      "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+      "answer": "Mandarin Chinese"
+    },
+    {
+      "id": 31,
+      "question": "Who invented the telephone?",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell",
+        "Guglielmo Marconi"
+      ],
+      "answer": "Alexander Graham Bell"
+    },
+    {
+      "id": 32,
+      "question": "Which planet is closest to the sun?",
+      "options": ["Venus", "Earth", "Mercury", "Mars"],
+      "answer": "Mercury"
+    },
+    {
+      "id": 33,
+      "question": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+      "answer": "Canberra"
+    },
+    {
+      "id": 34,
+      "question": "What is the largest bone in the human body?",
+      "options": ["Skull", "Femur", "Spine", "Humerus"],
+      "answer": "Femur"
+    },
+    {
+      "id": 35,
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "options": [
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "Jane Austen",
+        "Mary Shelley"
+      ],
+      "answer": "Jane Austen"
+    },
+    {
+      "id": 36,
+      "question": "What is the fastest land animal?",
+      "options": ["Lion", "Cheetah", "Tiger", "Leopard"],
+      "answer": "Cheetah"
+    },
+    {
+      "id": 37,
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Osmium", "Oxygen", "Gold", "Silver"],
+      "answer": "Oxygen"
+    },
+    {
+      "id": 38,
+      "question": "What is the capital of Italy?",
+      "options": ["Venice", "Milan", "Rome", "Florence"],
+      "answer": "Rome"
+    },
+    {
+      "id": 39,
+      "question": "How many bones are in the human body?",
+      "options": ["206", "210", "201", "216"],
+      "answer": "206"
+    },
+    {
+      "id": 40,
+      "question": "Who was known as the Maid of Orléans?",
+      "options": [
+        "Marie Antoinette",
+        "Joan of Arc",
+        "Catherine the Great",
+        "Queen Elizabeth I"
+      ],
+      "answer": "Joan of Arc"
+    },
+    {
+      "id": 41,
+      "question": "What is the smallest country in the world?",
+      "options": ["Monaco", "San Marino", "Liechtenstein", "Vatican City"],
+      "answer": "Vatican City"
+    },
+    {
+      "id": 42,
+      "question": "Which artist painted the ceiling of the Sistine Chapel?",
+      "options": ["Raphael", "Donatello", "Michelangelo", "Leonardo da Vinci"],
+      "answer": "Michelangelo"
+    },
+    {
+      "id": 43,
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "id": 44,
+      "question": "Who is the author of 'Harry Potter'?",
+      "options": [
+        "J.R.R. Tolkien",
+        "J.K. Rowling",
+        "C.S. Lewis",
+        "Suzanne Collins"
+      ],
+      "answer": "J.K. Rowling"
+    },
+    {
+      "id": 45,
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": ["Oxygen", "Hydrogen", "Carbon Dioxide", "Nitrogen"],
+      "answer": "Nitrogen"
+    },
+    {
+      "id": 46,
+      "question": "What is the capital of Egypt?",
+      "options": ["Cairo", "Alexandria", "Giza", "Luxor"],
+      "answer": "Cairo"
+    },
+    {
+      "id": 47,
+      "question": "Who discovered America?",
+      "options": [
+        "Christopher Columbus",
+        "Leif Erikson",
+        "Ferdinand Magellan",
+        "Vasco da Gama"
+      ],
+      "answer": "Christopher Columbus"
+    },
+    {
+      "id": 48,
+      "question": "What is the main ingredient in chocolate?",
+      "options": ["Sugar", "Milk", "Cocoa", "Vanilla"],
+      "answer": "Cocoa"
+    },
+    {
+      "id": 49,
+      "question": "Who was the first female Prime Minister of the United Kingdom?",
+      "options": [
+        "Theresa May",
+        "Margaret Thatcher",
+        "Angela Merkel",
+        "Indira Gandhi"
+      ],
+      "answer": "Margaret Thatcher"
+    },
+    {
+      "id": 50,
+      "question": "What is the largest desert in the world?",
+      "options": [
+        "Sahara Desert",
+        "Arabian Desert",
+        "Gobi Desert",
+        "Antarctic Desert"
+      ],
+      "answer": "Antarctic Desert"
+    }
+  ]
+}
