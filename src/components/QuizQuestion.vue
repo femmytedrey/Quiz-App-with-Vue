@@ -101,6 +101,7 @@ export default {
     const feedbackMessage = ref("");
 
     const startTimer = () => {
+      clearInterval(intervalId.value);
       intervalId.value = setInterval(() => {
         if (timer.value > 0) {
           timer.value--;
@@ -131,7 +132,9 @@ export default {
     const fetchData = async () => {
       loading.value = true;
       try {
-        const data = await fetch("https://femmytedrey.github.io/quiz_api/quiz.json");
+        const data = await fetch(
+          "https://femmytedrey.github.io/quiz_api/quiz.json"
+        );
         if (!data.ok) {
           throw new Error("Error fetching questions");
         }
@@ -205,7 +208,7 @@ export default {
       lockSelection.value = false;
       btnText.value = "Next";
       notSubmitted.value = true;
-      timer.value = 1 * 60;
+      timer.value = 15 * 60;
       dieMinute.value = false;
       fetchData();
       startTimer();
