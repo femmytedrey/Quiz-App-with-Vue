@@ -149,7 +149,6 @@ export default {
         const fetchData = await data.json();
         const fetchedQuestions = fetchData.questions;
         questions.value = extractRandomQuiz(fetchedQuestions, 30);
-        console.log(questions.value);
       } catch (err) {
         errorMsg.value = err.message;
       } finally {
