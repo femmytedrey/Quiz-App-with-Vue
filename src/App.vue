@@ -1,9 +1,11 @@
 <template>
   <div
     v-if="!getStarted"
-    class="flex flex-col items-center justify-center h-screen bg-gray-100 "
+    class="flex flex-col items-center justify-center h-screen bg-gray-100"
   >
-    <h1 class="text-2xl font-bold mb-4">Welcome to the Quiz Application</h1>
+    <h1 class="text-2xl font-bold mb-4 px-3 text-center">
+      Welcome to the Quiz Application
+    </h1>
     <p class="mb-6 text-lg text-gray-700">Test your knowledge and have fun!</p>
     <button
       @click="proceed"
@@ -35,7 +37,6 @@ export default {
   methods: {
     proceed() {
       this.getStarted = true;
-      console.log("object");
     },
   },
 };

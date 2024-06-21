@@ -24,6 +24,13 @@
     </div>
 
     <div
+      v-if="errorMsg"
+      class="p-5 text-xl border-b-[1.5px] text-center font-bold"
+    >
+      <h1>{{ errorMsg }}</h1>
+    </div>
+
+    <div
       class="p-5 pb-8 space-y-6 border-b border-gray-300"
       v-if="questions.length"
     >
@@ -99,6 +106,7 @@ export default {
     const intervalId = ref(null);
     const dieMinute = ref(false);
     const feedbackMessage = ref("");
+    const errorMsg = ref("");
 
     const startTimer = () => {
       clearInterval(intervalId.value);
@@ -136,13 +144,14 @@ export default {
           "https://femmytedrey.github.io/quiz_api/quiz.json"
         );
         if (!data.ok) {
-          throw new Error("Error fetching questions");
+          throw new Error("Error fetching questions...");
         }
         const fetchData = await data.json();
         const fetchedQuestions = fetchData.questions;
         questions.value = extractRandomQuiz(fetchedQuestions, 30);
+        console.log(questions.value);
       } catch (err) {
-        console.log(err.message);
+        errorMsg.value = err.message;
       } finally {
         loading.value = false;
       }
@@ -181,7 +190,6 @@ export default {
         next.value += 1;
         lockSelection.value = false;
       } else if (btnText.value === "Submit") {
-        console.log("you scored:", score.value);
         notSubmitted.value = false;
       }
     };
@@ -239,6 +247,7 @@ export default {
       dieMinute,
       loading,
       feedbackMessage,
+      errorMsg,
     };
   },
 };
